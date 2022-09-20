@@ -1,0 +1,60 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family:"PlayFair";
+  src: url("./Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"Lato";
+  src: url("./Lato/Lato-Regular.ttf") format("truetype");
+}
+
+html{
+    margin: 0;
+}
+nav{
+    background-color: #3E4E50;
+    color: #ffff;
+}
+.title{
+  font-family: PlayFair;
+}
+p, a{
+    font-family: Lato;
+}
+.img{
+width: 20px;
+} 
+.portfolio, .contacto{
+    background-color: #F2AA7E;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+input[type=submit]{
+    background-color: #F27E72;
+    border: none;
+    transition: all 0.5s 0s ease;
+}
+input[type=submit]:hover{
+    background-color: #F4D9C8;;
+}
+ /*  */
+footer{
+    background-color: #3E4E50;
+}
+i{
+    color: #496662;
+}
+i:hover{
+    color:#87999C;
+}
