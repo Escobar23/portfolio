@@ -1,17 +1,14 @@
 :root{
     scroll-behavior: smooth;
 }
-
 @font-face {
   font-family:"PlayFair";
   src: url("./Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
 }
-
 @font-face {
   font-family:"Lato";
   src: url("./Lato/Lato-Regular.ttf") format("truetype");
 }
-
 html{
     margin: 0;
 }
@@ -26,7 +23,7 @@ p, a{
     font-family: Lato;
 }
 .img{
-width: 20px;
+    width: 50%;
 } 
 .portfolio, .contacto{
     background-color: #F2AA7E;
@@ -48,7 +45,6 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: #F4D9C8;;
 }
- /*  */
 footer{
     background-color: #3E4E50;
 }
