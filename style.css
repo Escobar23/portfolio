@@ -28,6 +28,16 @@ p, a{
 .portfolio, .contacto{
     background-color: #F2AA7E;
 }
+.cv{
+    background-color: #F27E72;
+    text-decoration: none;
+    color: #3E4E50;
+    width: 20%;
+}
+.cv:hover{
+    color: #3E4E50;
+    background-color: #F4D9C8;;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
@@ -43,7 +53,7 @@ input[type=submit]{
     transition: all 0.5s 0s ease;
 }
 input[type=submit]:hover{
-    background-color: #F4D9C8;;
+    background-color: #F4D9C8;
 }
 footer{
     background-color: #3E4E50;
