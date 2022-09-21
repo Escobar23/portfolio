@@ -21,6 +21,7 @@ nav{
 }
 p, a{
     font-family: Lato;
+    text-decoration: none;
 }
 .img{
     width: 50%;
